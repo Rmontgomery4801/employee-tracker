@@ -192,12 +192,12 @@ function addNewRole(data) {
 function addEmployee() {
     inquirer.prompt([{
                 type: 'input',
-                message: "What is the employee's first name?",
+                message: "What is the employee's First Name?",
                 name: "firstName",
             },
             {
                 type: 'input',
-                message: "What is the employee's last name?",
+                message: "What is the employee's Last Name?",
                 name: "lastName",
             },
             {
